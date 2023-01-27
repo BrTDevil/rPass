@@ -1,0 +1,71 @@
+body {
+    background-color: #022;
+    color: #999;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    font-size: 13px;
+}
+* {user-select: none;}
+
+.block {
+    background-color: #033;
+    display: inline-block;
+    padding: 5px;
+    margin: 2px 0;
+    font-size: 75%;
+}
+
+.block:hover {
+    background-color: #044;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+h2 {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0;
+}
+
+.record {
+    font-weight: bold;
+    border: 1px solid #244;
+    padding: 10px;
+}
+
+hr {
+    margin: 5px 0;
+}
+
+a {
+    color: #999 !important;
+    text-decoration: none;
+}
+
+.blockCopy {
+    transition: color 5ms ease-in-out, transform 300ms ease-in-out;
+}
+
+.block.copied {
+    color: #000 !important;
+    background-color: lime;
+    transform: scale(1.3);
+}
+
+.btn {
+    color: #fff !important;
+}
+input.form-control {
+    margin: 10px 0;
+}
+
+.btn.btn-sm {
+    padding: 4px;
+    line-height: 12px;
+}
